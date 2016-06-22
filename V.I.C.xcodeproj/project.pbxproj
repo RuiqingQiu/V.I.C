@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5667D0423ED23A7A8E6930BF /* Pods_V_I_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB4F0B44474B742734D9DC /* Pods_V_I_C.framework */; };
+		AA6358B71D1B3326005E1A08 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6358B61D1B3326005E1A08 /* ChatViewController.swift */; };
 		AAE870671CD7DF290052F488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE870661CD7DF290052F488 /* AppDelegate.swift */; };
 		AAE870691CD7DF290052F488 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE870681CD7DF290052F488 /* ViewController.swift */; };
 		AAE8706C1CD7DF290052F488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE8706A1CD7DF290052F488 /* Main.storyboard */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA6358B61D1B3326005E1A08 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		AAE870631CD7DF290052F488 /* V.I.C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V.I.C.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE870661CD7DF290052F488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAE870681CD7DF290052F488 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		AAE870851CD7DF290052F488 /* V.I.CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = V.I.CUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE870891CD7DF290052F488 /* V_I_CUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V_I_CUITests.swift; sourceTree = "<group>"; };
 		AAE8708B1CD7DF290052F488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFB4F0B44474B742734D9DC /* Pods_V_I_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_V_I_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1870381DDEDB45A611F7321 /* Pods-V.I.C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V.I.C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V.I.C/Pods-V.I.C.debug.xcconfig"; sourceTree = "<group>"; };
+		F63A3223200B7D940138BA32 /* Pods-V.I.C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V.I.C.release.xcconfig"; path = "Pods/Target Support Files/Pods-V.I.C/Pods-V.I.C.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5667D0423ED23A7A8E6930BF /* Pods_V_I_C.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A8768AC4737DB91AA825BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB4F0B44474B742734D9DC /* Pods_V_I_C.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AAE8705A1CD7DF290052F488 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,8 @@
 				AAE8707D1CD7DF290052F488 /* V.I.CTests */,
 				AAE870881CD7DF290052F488 /* V.I.CUITests */,
 				AAE870641CD7DF290052F488 /* Products */,
+				C276A08F723009C8ADBD5C5C /* Pods */,
+				7A8768AC4737DB91AA825BFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +123,7 @@
 				AAE870721CD7DF290052F488 /* LaunchScreen.storyboard */,
 				AAE870751CD7DF290052F488 /* Info.plist */,
 				AAE8706D1CD7DF290052F488 /* V_I_C.xcdatamodeld */,
+				AA6358B61D1B3326005E1A08 /* ChatViewController.swift */,
 			);
 			path = V.I.C;
 			sourceTree = "<group>";
@@ -128,6 +146,15 @@
 			path = V.I.CUITests;
 			sourceTree = "<group>";
 		};
+		C276A08F723009C8ADBD5C5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1870381DDEDB45A611F7321 /* Pods-V.I.C.debug.xcconfig */,
+				F63A3223200B7D940138BA32 /* Pods-V.I.C.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAE8708E1CD7DF290052F488 /* Build configuration list for PBXNativeTarget "V.I.C" */;
 			buildPhases = (
+				58A7B942879C84B341F3004B /* Check Pods Manifest.lock */,
 				AAE8705F1CD7DF290052F488 /* Sources */,
 				AAE870601CD7DF290052F488 /* Frameworks */,
 				AAE870611CD7DF290052F488 /* Resources */,
+				6A8F877CA3D99C8C08E3A493 /* Embed Pods Frameworks */,
+				11FE8B674F0E4FD2A0DBEBBE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +284,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11FE8B674F0E4FD2A0DBEBBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-V.I.C/Pods-V.I.C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A7B942879C84B341F3004B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A8F877CA3D99C8C08E3A493 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-V.I.C/Pods-V.I.C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AAE8705F1CD7DF290052F488 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +339,7 @@
 			files = (
 				AAE870691CD7DF290052F488 /* ViewController.swift in Sources */,
 				AAE8706F1CD7DF290052F488 /* V_I_C.xcdatamodeld in Sources */,
+				AA6358B71D1B3326005E1A08 /* ChatViewController.swift in Sources */,
 				AAE870671CD7DF290052F488 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +478,7 @@
 		};
 		AAE8708F1CD7DF290052F488 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1870381DDEDB45A611F7321 /* Pods-V.I.C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = V.I.C/Info.plist;
@@ -410,6 +490,7 @@
 		};
 		AAE870901CD7DF290052F488 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63A3223200B7D940138BA32 /* Pods-V.I.C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = V.I.C/Info.plist;
@@ -486,6 +567,7 @@
 				AAE870901CD7DF290052F488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAE870911CD7DF290052F488 /* Build configuration list for PBXNativeTarget "V.I.CTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +576,7 @@
 				AAE870931CD7DF290052F488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAE870941CD7DF290052F488 /* Build configuration list for PBXNativeTarget "V.I.CUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +585,7 @@
 				AAE870961CD7DF290052F488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
